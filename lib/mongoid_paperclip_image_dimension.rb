@@ -39,9 +39,9 @@ module Mongoid::Paperclip::ImageDimension
     dimension_hash = {}
     styles.each do |style|
       attachment = self.send attachment_field
-      geo = Paperclip::Geometry.from_file(attachment.queued_for_write[style])
+      geo = ::Paperclip::Geometry.from_file(attachment.queued_for_write[style])
       dimension_hash[style] = [ geo.width.to_i, geo.height.to_i ]
     end
     self.send "#{attachment_field}_dimensions=", dimension_hash
-  end  
+  end
 end
