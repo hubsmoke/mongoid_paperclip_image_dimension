@@ -68,7 +68,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<mongoid>, ["~> 2.4.1"])
     s.add_dependency(%q<mongoid-paperclip>, ["~> 0.0.7"])
-    s.add_dependency(%q<paperclip>, ["~> 2.5.0"])
+    s.add_dependency(%q<paperclip>, ["~> 2.6.0"])
     s.add_dependency(%q<database_cleaner>, [">= 0"])
     s.add_dependency(%q<bson>, [">= 0"])
     s.add_dependency(%q<bson_ext>, [">= 0"])
