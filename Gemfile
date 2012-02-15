@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'mongoid', '~> 2.4.1'
 gem "mongoid-paperclip", '~> 0.0.7', :require => "mongoid_paperclip"
-gem "paperclip", '~> 2.6.0'
+gem "paperclip", '~> 2.6.0', :git => "git://github.com/thoughtbot/paperclip.git"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
