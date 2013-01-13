@@ -1,3 +1,5 @@
+*Note:* mongoid_paperclip_image_dimension is deprecated. Please use aq1018/paperclip-dimension instead!
+
 = mongoid_paperclip_image_dimension
 
 This is a simple gem to persist image dimensions of originals and thumbnails for mongoid documents.
